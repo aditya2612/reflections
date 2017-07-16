@@ -23,7 +23,9 @@ branch helps me to identify what changes have been done in what branch. with mak
 5)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 some files were added to both of them according to conflicting mechanism
+-> Diagram help to understand code step by step
 
 
 6) What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+ Automatic merging is OK, when there are no conflicts, but just added some code into branches. You don't have to rewiev all that code, since this would be time consupting. Manualy merging would be time consumpting, but in some cases when there are made some complicated changes, manually merging is needed.
