@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+->we can't see any commit,initially there are zero commit 
+->on using git status there is untracked version of files
+->git init creates .git file which is a hidden file
+-> we need because it helps to create project and maintain the files accordingly , and make the changes.
+
+2) How can you use the staging area to make sure you have one commit per logical change?
+
+yes by add file to staging area 
+then run diff --staged command so see final file
+then run git commit command , after your file is being commited
+
+3)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+it helps if we want to do any experimental changes , it will help to know the changes what you have made. if you dont like your changes you can move to master directory , or else continue in the same  directory
+
+4)How do the diagrams help you visualize the branch structure?
+
+branch helps me to identify what changes have been done in what branch. with making of branch i am able to understand which id is part of which branch & which are parents of that particular id.
+
+
+5)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+some files were added to both of them according to conflicting mechanism
+
+
+6) What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
