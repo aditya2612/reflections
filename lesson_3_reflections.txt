@@ -1,0 +1,5 @@
+Q) When would you want to use a remote repository rather than keeping all your work local?
+
+A) I need remote repository for 
+-> if 2 or more people working on the same project and made any changes they can directly add/delete on remote repository
+->if single person maintaining the repository , it will hep to backup the data of project
